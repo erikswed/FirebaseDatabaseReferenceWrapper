@@ -16,4 +16,6 @@ Basically that´s it and it works the same for  ValueEventListener and ChildEven
   
 There´s more to do since this initial version is not hadling all cases.
 
+See the DebugViewer.java for an example usage!
+
 Have fun!
