@@ -1,7 +1,6 @@
 # FirebaseDatabaseReferenceWrapper
 This is a wrapper around com.google.firebase.database.DatabaseReference.
 
-This is a wrapper around com.google.firebase.database.DatabaseReference. 
 The aim is to centralise and monitor all asynchronous calls to Firebase under one monitor.
 
 This class will not in any way keep track of them but instead only eavesdropping on them.
