@@ -279,4 +279,10 @@ public class MyDatabaseReference implements DatabaseReference {
             myListeners.put(listener.listId, new WorkItem(listener.id, listener.description, listener.listId, listener.TAG));
         }
     }
+    
+        public static LinkedHashMap<Integer, BaseJob> getWorkItems() {
+        synchronized (myListeners) {
+            return myListeners;
+        }
+    }
 }
